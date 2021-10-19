@@ -1,0 +1,10 @@
+@media (min-width:48rem) {
+    .grid-display {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-display{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+

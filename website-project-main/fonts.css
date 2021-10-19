@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Sen';
+    src: url('../fonts/Sen-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Neon';
+    src: url('../fonts/Neon.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Quicksand SemiBold';
+    src: url('../fonts/Quicksand-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Quicksand Bold';
+    src: url('../fonts/Quicksand-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Quicksand Medium';
+    src: url('../fonts/Quicksand-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Quicksand Light';
+    src: url('../fonts/Quicksand-Light.woff') format('woff');
+}

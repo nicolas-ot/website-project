@@ -158,15 +158,17 @@ intext:focus {
 }
 
 .container {
-    position: relative;
     text-align: center;
+    background-image: url(https://via.placeholder.com/1500x500);
+    background-size: cover;
+    background-position: center;
+    margin: 3rem;
 }
 
 .main-text {
-    position: absolute;
-    top: 20%;
-    left: 32%;
-}
+
+    margin: 10rem 0;
+} 
 
 .grid-display {
     float: center;

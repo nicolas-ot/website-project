@@ -159,6 +159,9 @@ intext:focus {
 
 .container {
     text-align: center;
+}
+
+.main-section {
     background-image: url(https://via.placeholder.com/1500x500);
     background-size: cover;
     background-position: center;
@@ -166,7 +169,6 @@ intext:focus {
 }
 
 .main-text {
-
     margin: 10rem 0;
 } 
 

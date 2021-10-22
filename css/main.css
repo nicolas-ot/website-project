@@ -78,11 +78,6 @@ h6 {
     margin: 2rem 10rem;
 }
 
-img {
-    max-width: 100%;
-}
-
-
 /* .main-img {
     position: relative;
     text-align: center;
@@ -96,36 +91,45 @@ img {
 
 /* nav bar */
 
-
 .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding:0 2rem;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.nav-link-item {
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
-    float: right;
-    display: block;
+    display: flex;
+    align-items: center;
+    height: 100%;
     color: white;
-    text-align: center;
-    padding: 1rem 2rem;
+    padding: 0 2rem;
     text-decoration: none;
     transition: 0.5s ease;
+
 }
 
 
-.nav-bar:focus,
-.nav-bar:hover {
+.nav-link-item:focus,
+.nav-link-item:hover {
     text-decoration: underline;
     text-decoration-color: #6398d8;
+    outline: none;
     text-decoration-thickness: 0.25rem;
     transform: translateY(-0.2rem);
-
 }
 
 .navbar-img{
-    width: 100%;
-    height: auto;
+    width: min-content;
+    height: 100%;
     opacity: 1;
     transition: 0.5s ease;
     backface-visibility: hidden;
-    max-width: 10rem;
     padding: 0;
 }
 
@@ -171,28 +175,6 @@ img {
     color: #009FFF;
     transform: translateY(-0.2rem);
 }
-
-.nav-bar {
-    font-family: "Quicksand", sans-serif;
-    font-weight: 600;
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1rem 2rem;
-    text-decoration: none;
-    transition: 0.5s ease;
-}
-
-
-.nav-bar:focus,
-.nav-bar:hover {
-    text-decoration: underline;
-    text-decoration-color: #6398d8;
-    text-decoration-thickness: 0.25rem;
-    transform: translateY(-0.2rem);
-}
-
 
 /* idk how to put the logo on the right lol */
 

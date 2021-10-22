@@ -59,6 +59,25 @@ h4 {
     margin-top: 1.5rem;
 }
 
+
+/* Fonts for the about page */
+
+h5 {
+    font-family: "Cunia", sans-serif;
+    font-weight: 700;
+    font-size: 3.25rem;
+    margin: 2rem 10rem;
+}
+
+h6 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 2rem 10rem;
+}
+
 img {
     max-width: 100%;
 }
@@ -75,6 +94,54 @@ img {
     left: 25rem;
 } */
 
+/* nav bar */
+
+
+.nav-bar {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+
+.nav-bar:focus,
+.nav-bar:hover {
+    text-decoration: underline;
+    text-decoration-color: #6398d8;
+    text-decoration-thickness: 0.25rem;
+    transform: translateY(-0.2rem);
+
+}
+
+.navbar-img{
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    max-width: 10rem;
+    padding: 0;
+}
+
+.navbar-img:focus, .navbar-img:hover{
+    transform: translateY(-0.2rem);
+}
+
+.main-section {
+    background-image: url(https://via.placeholder.com/1500x500);
+    background-size: cover;
+    background-position: center;
+    margin: 3rem;
+}
+
+
+
 .neon-main {
     color: #f0f0f0;
     text-decoration: none;
@@ -83,7 +150,7 @@ img {
 .neon-main:hover {
     color: #fff;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
-    transition-duration: 0.5s;
+    transition: 0.5s ease-in-out;
 }
 
 .intext {
@@ -100,7 +167,7 @@ img {
 }
 
 .intext:hover,
-intext:focus {
+.intext:focus {
     color: #009FFF;
     transform: translateY(-0.2rem);
 }
@@ -118,19 +185,19 @@ intext:focus {
 }
 
 
-
 .nav-bar:focus,
 .nav-bar:hover {
     text-decoration: underline;
     text-decoration-color: #6398d8;
     text-decoration-thickness: 0.25rem;
     transform: translateY(-0.2rem);
-
 }
 
-/* idk how to put the logo on the right lol */
-/* and add cart */
 
+/* idk how to put the logo on the right lol */
+
+
+/* and add cart */
 
 .button-nav {
     font-family: "Quicksand", sans-serif;
@@ -139,7 +206,7 @@ intext:focus {
     justify-content: center;
     align-items: center;
     height: 2rem;
-    padding: 1rem;
+    padding: 0.5rem;
     margin: 0.5rem;
     color: #f0f0f0;
     border: 0.2rem solid #fc87ff;
@@ -161,16 +228,11 @@ intext:focus {
     text-align: center;
 }
 
-.main-section {
-    background-image: url(https://via.placeholder.com/1500x500);
-    background-size: cover;
-    background-position: center;
-    margin: 3rem;
-}
+
 
 .main-text {
     margin: 10rem 0;
-} 
+}
 
 .grid-display {
     float: center;
@@ -182,26 +244,18 @@ intext:focus {
     justify-content: center;
 }
 
-
-.best-sellers-section {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .main-box {
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  display: flex;
-  flex: 1;
-  min-width: 20rem;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem 3rem;
-  border-radius: 2rem;
-  border: 3px solid rgb(167, 165, 165);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 3rem;
+    border-radius: 2rem;
+    border: 3px solid rgb(167, 165, 165);
 }
 
-.main-box img{
+.main-box img {
     border-radius: 1rem;
     margin: 1rem 0;
     width: 100%;
@@ -240,6 +294,175 @@ intext:focus {
 }
 
 
+/* Checkout Components */
+
+.cart-summary h2 {
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: white;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.checkout-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    margin: 2rem 4rem 2rem 4rem;
+}
+
+.checkout-bar {
+    border-bottom: 0.2rem solid #6398d8;
+    margin: 0 3rem;
+}
+
+.cart-products {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 1rem 4rem 2rem 4rem;
+}
+
+.div_1 {
+    text-align: center;
+    grid-area: 0 / 1 / 2 / 3;
+}
+
+.div_2 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.div_3 {
+    grid-area: 1 / 5 / 2 / 6;
+}
+
+.div_4 {
+    grid-area: 1 / 6 / 2 / 7;
+}
+
+.div_1_1 {
+    grid-area: 1 / 0.5 / 2 / 3;
+}
+
+.div_1_1 img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+.div_2_2 {
+    grid-area: 1/2/2/4;
+}
+
+.container-div_2_2 {
+    padding: 0rem;
+    margin-left: 4rem;
+}
+
+.container-div_2_2 h3 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-size: 1rem;
+    text-align: left;
+    transition: 0.5s ease;
+}
+
+.container-div_2_2 p {
+    margin-top: 0;
+    font-size: 1rem;
+    text-align: left;
+    text-align-last: left;
+}
+
+.div_3_3 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.div_4_4 {
+    grid-area: 1 / 5 / 2 / 6;
+    margin-left: 2.75rem;
+}
+
+.div_5_5 {
+    grid-area: 1 / 6 / 2 / 7;
+    margin-left: 2.5rem;
+}
+
+.grid-totalinfo {
+    display: grid;
+    grid-template-columns: repeat(5, 0.180fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 1rem 4rem 2rem 4rem;
+}
+
+.divA {
+    grid-area: 1 / 5 / 2 / 6;
+    margin-top: 1rem;
+}
+
+.divB {
+    grid-area: 2 / 5 / 3 / 6;
+    margin-top: 1rem;
+}
+
+.divC {
+    grid-area: 3 / 5 / 4 / 6;
+    margin-top: 1rem;
+}
+
+.divD {
+    grid-area: 1 / 6 / 2 / 7;
+}
+
+.divE {
+    grid-area: 2 / 6 / 3 / 7;
+}
+
+.divF {
+    grid-area: 3 / 6 / 4 / 7;
+}
+
+.grid-total {
+    display: grid;
+    grid-template-columns: repeat(5, 0.180fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 1rem 4rem 2rem 4rem;
+}
+
+.divtotalA {
+    grid-area: 1 / 5 / 2 / 6;
+    margin-top: 1rem;
+}
+
+.divtotalB{
+    grid-area: 1 / 6 / 2 / 7;
+}
+
+.remove-text {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    color: #64BDFF;
+    text-decoration: none;
+    transition-property: color;
+    transition: 0.5s ease;
+}
+
+.remove-text:hover,
+remove-text:focus {
+    color: #009FFF;
+    transform: translateY(-0.2rem);
+}
+/* end of checkout page */
+
 /* Footer */
 
 footer {
@@ -253,4 +476,92 @@ footer {
     margin-top: 3rem;
     background-color: #333152;
     color: white;
+}
+
+
+/* shop listing */
+
+.listings {
+    text-align: left;
+    margin: 2rem;
+    padding: 1rem;
+    border: 0.2rem solid #fc87ff;
+    border-radius: 1rem;
+}
+
+
+/* Custom Sign Form */
+
+.form-entry {
+    margin: 3rem 10rem;
+}
+
+.form-entry label {
+    color: #f0f0f0;
+    cursor: text;
+    font-size: 1.2rem;
+}
+
+.form-entry input,
+.form-entry select,
+.form-entry textarea {
+    font-family: 'Sen', Arial, sans-serif;
+    font-size: 1rem;
+    border: 0.2rem solid #fda551;
+    background-color: #2d2e3a;
+    color: #f0f0f0;
+    border-radius: 1rem;
+    display: block;
+    margin: 1rem 0rem;
+    padding: 1.5rem 1rem;
+    transition-property: border;
+    transition-duration: 0.5s;
+}
+
+::placeholder {
+    color: #f0f0f0;
+}
+
+.form-entry input:hover {
+    border: 0.2rem solid #ff7d22;
+    background-color: #2d2e3a;
+}
+
+.form-entry input:focus {
+    border: 0.2rem solid #fda551;
+    background-color: #2d2e3a;
+}
+
+.form-entry input,
+.form-entry textarea {
+    width: 15rem;
+}
+
+.form-entry select {
+    height: 10rem;
+    width: 20rem;
+}
+
+.form-entry textarea {
+    height: 4rem;
+}
+
+.submit {
+    font-family: 'Sen', Arial, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem;
+    color: #f0f0f0;
+    background-color: #2d2e3a;
+    border: 0.2rem solid #fda551;
+    border-radius: 1rem;
+    text-decoration: none;
+    transition-property: border;
+    transition-duration: 0.5s;
+}
+
+.submit:hover,
+.submit:focus {
+    border: 0.2rem solid #ff7d22;
 }

@@ -309,44 +309,44 @@ h6 {
     margin: 1rem 4rem 2rem 4rem;
 }
 
-.div_1 {
+.checkout-header.product {
     text-align: center;
     grid-area: 0 / 1 / 2 / 3;
 }
 
-.div_2 {
+.checkout-header.price {
     grid-area: 1 / 4 / 2 / 5;
 }
 
-.div_3 {
+.checkout-header.quantity {
     grid-area: 1 / 5 / 2 / 6;
 }
 
-.div_4 {
+.checkout-header.total {
     grid-area: 1 / 6 / 2 / 7;
 }
 
-.div_1_1 {
+.product-image {
     grid-area: 1 / 0.5 / 2 / 3;
 }
 
-.div_1_1 img {
+.product-image img {
     max-width: 100%;
     height: auto;
     margin-left: 2rem;
     margin-top: 1.5rem;
 }
 
-.div_2_2 {
+.product-info {
     grid-area: 1/2/2/4;
 }
 
-.container-div_2_2 {
+.container-product-info {
     padding: 0rem;
     margin-left: 4rem;
 }
 
-.container-div_2_2 h3 {
+.container-product-info h3 {
     font-family: "Quicksand", sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
@@ -355,23 +355,23 @@ h6 {
     transition: 0.5s ease;
 }
 
-.container-div_2_2 p {
+.container-product-info p {
     margin-top: 0;
     font-size: 1rem;
     text-align: left;
     text-align-last: left;
 }
 
-.div_3_3 {
+.product-price {
     grid-area: 1 / 4 / 2 / 5;
 }
 
-.div_4_4 {
+.product-qty {
     grid-area: 1 / 5 / 2 / 6;
     margin-left: 2.75rem;
 }
 
-.div_5_5 {
+.product-total-price {
     grid-area: 1 / 6 / 2 / 7;
     margin-left: 2.5rem;
 }
@@ -385,30 +385,30 @@ h6 {
     margin: 1rem 4rem 2rem 4rem;
 }
 
-.divA {
+.total-info-label.subtotal {
     grid-area: 1 / 5 / 2 / 6;
     margin-top: 1rem;
 }
 
-.divB {
+.total-info-label.shipping-fee {
     grid-area: 2 / 5 / 3 / 6;
     margin-top: 1rem;
 }
 
-.divC {
+.total-info-label.tax {
     grid-area: 3 / 5 / 4 / 6;
     margin-top: 1rem;
 }
 
-.divD {
+.total-info-value.subtotal {
     grid-area: 1 / 6 / 2 / 7;
 }
 
-.divE {
+.total-info-value.shipping-fee {
     grid-area: 2 / 6 / 3 / 7;
 }
 
-.divF {
+.total-info-value.tax {
     grid-area: 3 / 6 / 4 / 7;
 }
 
@@ -420,12 +420,12 @@ h6 {
     margin: 1rem 4rem 2rem 4rem;
 }
 
-.divtotalA {
+.total-label {
     grid-area: 1 / 5 / 2 / 6;
     margin-top: 1rem;
 }
 
-.divtotalB{
+.total-value{
     grid-area: 1 / 6 / 2 / 7;
 }
 

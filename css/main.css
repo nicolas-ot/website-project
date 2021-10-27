@@ -139,8 +139,8 @@ h6 {
 
 .main-section {
     /* background-image: url(https://via.placeholder.com/1500x500); */
-    background-image: url("../assets/angry-bird.jpg");
-    background-size: contain;
+    background-image: url("../assets/darkwall.jpeg");
+    background-size: cover;
     background-position: center;
     margin: 3rem;
 }
@@ -175,6 +175,33 @@ h6 {
 .intext:focus {
     color: #009FFF;
     transform: translateY(-0.2rem);
+}
+
+.fa {
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 2.5rem;
+    color: #ffffff;
+    background-color: none;
+    transition: 0.2s ease-in;
+}
+  
+.fa:hover {
+      color: #64BDFF;
+}
+
+.fa-shopping-cart {
+    color: white;
+    margin: 0.5rem 2rem 0 1rem;
+    width: 1rem;
+    height: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.fa-shopping-cart:focus, .fa-shopping-cart:hover{
+    transform: translateY(-0.2rem);
+    color: #6398d8;
 }
 
 /* idk how to put the logo on the right lol */
@@ -555,3 +582,20 @@ footer {
 .submit:focus {
     border: 0.2rem solid #ff7d22;
 }
+
+/* about page */
+
+.about-section{
+    margin: 0;
+}
+
+.about-section img{
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.about-text {
+    margin: 5rem;
+}
+

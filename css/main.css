@@ -268,7 +268,7 @@ h7 {
     background-color: #323650;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
     display: flex;
-    flex: 1;
+    flex: 0 1;
     max-width: 33.438rem;
     min-width: 23.438rem;
     justify-content: center;

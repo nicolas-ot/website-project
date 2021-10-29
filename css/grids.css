@@ -2,9 +2,26 @@
     .grid-display {
         grid-template-columns: 1fr 1fr;
     }
-
-    .card-display{
+    .card-display {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .listings-display {
+        margin: 0rem 8rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .product-display {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
+    }
+    .custom-display {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
     }
 }
 
+/* Checkout Grids */
+
+.checkout-grid {
+    display: grid;
+}

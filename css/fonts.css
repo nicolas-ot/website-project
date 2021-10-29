@@ -32,3 +32,8 @@
     font-family: 'Quicksand Light';
     src: url('../fonts/Quicksand-Light.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'Cunia';
+    src: url('../fonts/cunia.woff') format('woff');
+}

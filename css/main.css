@@ -331,7 +331,6 @@ h7 {
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    width: 100%;
     height: auto;
     padding: 1rem;
     margin-top: 3rem;

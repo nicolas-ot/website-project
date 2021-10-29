@@ -1,15 +1,4 @@
 /* Checkout Components */
-
-.cart-products {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0;
-    grid-row-gap: 0;
-    margin: 1rem 4rem 2rem 4rem;
-}
-
-
 .cart-summary h2 {
     font-weight: bold;
     font-size: 1.75rem;
@@ -41,6 +30,10 @@
     margin: 1rem 4rem 2rem 4rem;
 }
 
+.checkout-header h3 {
+    font-size: 1.2rem;
+}
+
 .checkout-header.product {
     text-align: center;
     grid-area: 0 / 1 / 2 / 3;
@@ -59,15 +52,12 @@
 }
 
 .product-image {
-    grid-area: 1 / 0.5 / 2 / 3;
+    grid-area: 1 / 1 / 1 / 1;
+    margin-right: 1rem;
 }
 
 .product-image img {
-    max-width: 85%;
-    height: auto;
-    margin-left: 1.25rem;
-    margin-top: 1rem;
-    border-radius: 0.75rem;
+   width: 100%;
 }
 
 .product-info {
@@ -246,21 +236,22 @@ remove-text:focus {
 }
 
 .order-button {
-    font-family: "Quicksand", sans-serif;
-    font-style: Semi-bold 600;
-    display: flex;
-    justify-self: center;
-    justify-content: center;
-    align-items: center;
-    height: 2rem;
-    padding: 0.5rem;
-    margin-left: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: 3rem;
     color: #f0f0f0;
     border: 0.2rem solid #fc87ff;
     border-radius: 1rem;
     font-size: 1.5rem;
     text-decoration: none;
-    width: 15%;
+}
+
+.order-button a { 
+    font-family: "Quicksand", sans-serif;
+    font-style: Semi-bold 600;
+    text-decoration: none;
+    padding: 0 2rem;
+
 }
 
 .order-button:hover,
